@@ -2,59 +2,7 @@
 	<head>
 		<title>Musicos famosos</title>
         <link rel="shortcut icon" href="nadir.ico" type="image/x-icon">
-		<style type="text/css">
-			
-			* {
-				margin:0px;
-				padding:0px;
-			}
-			
-			#header {
-				margin:auto;
-				width:500px;
-				font-family:Arial, Helvetica, sans-serif;
-			}
-			
-			ul, ol {
-				list-style:none;
-			}
-			
-			.nav > li {
-				float:left;
-			}
-			
-			.nav li a {
-				background-color:#000;
-				color:#fff;
-				text-decoration:none;
-				padding:10px 12px;
-				display:block;
-			}
-			
-			.nav li a:hover {
-				background-color:#434343;
-			}
-			
-			.nav li ul {
-				display:none;
-				position:absolute;
-				min-width:140px;
-			}
-			
-			.nav li:hover > ul {
-				display:block;
-			}
-			
-			.nav li ul li {
-				position:relative;
-			}
-			
-			.nav li ul li ul {
-				right:-140px;
-				top:0px;
-			}
-			
-		</style>
+        <link rel="stylesheet" href="style.css">
 	</head>
 	<body>
 		<div id="header">
@@ -81,13 +29,7 @@
 				</li>
 				<li><a href="">Acerca de</a>
 					<ul>
-						<li><a href="">Submenu1</a>
-							<ul>
-								<li>
-									<li><a href="gatito.jpg"></a></li>
-								</li>
-							</ul>
-						</li>
+						<li><a href="">Submenu1</a></li>
 						<li><a href="">Submenu2</a></li>
 						<li><a href="">Submenu3</a></li>
 						<li><a href="">Submenu4</a></li>
@@ -104,18 +46,21 @@
 				
 			</ul>
 		</div>
-        <div id="uno">
+        <div id="uno" class="musicos">
             <h1>Nadir</h1>
             <img src="nadir.png" alt="">
             <p>Nadir es un músico americano de la época de los 2000
             </br>que está estudiando con nosotros actualmente.
                 
-                Le gusta mucho el dinero y todas sus canciones son privadas,
-                por lo que no podemos poner ninguna muestra...</p>
+            </br>Le gusta mucho el dinero y todas sus canciones son privadas,
+            </br>por lo que no podemos poner ninguna muestra...</p>
         </div>
-        <div id="dos">
+
+        <div id="dos" class="musicos">
             <h1>Guillermo díaz</h1>
-            <p>Willyrex es un gran cantante de la época de los 2000.
+            <img src="descarga.jpg" alt="">
+            <audio controls src="willy.mp3"></audio>
+            <p>Guillermo Díaz es un gran cantante de la época de los 2000.
             </br>Su canción más famosa es Paradise, la canción original es
             </br>del grupo Coldplay, pero él hizo una versión mejorada.</p>
         </div>
