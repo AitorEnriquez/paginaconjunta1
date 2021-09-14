@@ -1,7 +1,11 @@
 /*TODO ESTO ES DE EIMER*/
+html {
+    background-image: linear-gradient(red, yellow, red);
+}
 * {
 	margin:0px;
 	padding:0px;
+  
 }
 			
 #header {
@@ -51,7 +55,7 @@ ul, ol {
 /*FIN TODO ESTO ES DE EIMER*/
 
 .musicos {
-    background-color: red;
+    
 }
 .musicos img {
     margin-left: 0;
