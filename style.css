@@ -56,11 +56,29 @@ ul, ol {
 /*FIN TODO ESTO ES DE EIMER*/
 
 .musicos {
-    
+    margin-right: 50em;
 }
+
+.musicos p {
+    border: solid blue 0.3em;
+    background-color: green;
+    font-size: 1.5em;
+    border-radius: 1em;
+}
+
+.musicos h1 {
+    font-family: fantasy;
+    font-size: 4em;
+}
+
 .musicos img {
     margin-left: 0;
     width: 30em;
+    height: 30em;
+}
+
+#dos img {
+    height: 20em;
 }
 
 /*Tabla de surf*/
