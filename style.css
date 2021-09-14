@@ -56,8 +56,15 @@ ul, ol {
 /*FIN TODO ESTO ES DE EIMER*/
 
 .musicos {
-    
+    margin-right: 50em;
 }
+
+.musicos p {
+    border: solid blue 0.3em;
+    background-color: green;
+    border-radius: 1em;
+}
+
 .musicos img {
     margin-left: 0;
     width: 30em;
